@@ -55,7 +55,7 @@ harder to guess things based on word boundaries.
  - Decoding `kqlfd jzvgy tpaet icdhm rtwly kqlon ubstx`
    - gives `thequickbrownfoxjumpsoverthelazydog` with the key a=19 b=13
  - Encoding `test` with the key a=18 b=13
-   - gives `Error: a and m must be coprime.`
+   - gives `a and m must be coprime.`
    - because a and m are not relatively prime
 
 ## Examples of finding a Modular Multiplicative Inverse (MMI)
