@@ -27,3 +27,22 @@ should all produce the output
 `6139950253`
 
 **Note:** As this exercise only deals with telephone numbers used in NANP-countries, only 1 is considered a valid country code.
+
+# Code layout
+You are to create `PhoneNumber` class which implements `pretty()` method. It should return phone number formatted as `(area code)-exchange code-subscriber number`.
+For example:
+```python
+>>> number = PhoneNumber('+1 (613)-995-0253')
+>>> number.pretty()
+...
+(613)-995-0253
+```
+Also there should be present class attributes `area_code` and `exchange_code`:
+```python
+>>>number.area_code
+...
+613
+>>>number.exchange_code
+...
+995
+```
